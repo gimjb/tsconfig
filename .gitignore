@@ -1,0 +1,8 @@
+# System Files
+.DS_Store
+
+# Node Modules
+node_modules/
+
+# Compiled TS Configs
+tsconfig*.json
