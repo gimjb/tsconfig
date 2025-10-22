@@ -1,35 +1,35 @@
 {
-	"name": "@gimjb/tsconfig",
-	"version": "0.0.1",
-	"description": "A comprehensive TypeScript configuration file for various project types.",
-	"keywords": [
-		"tsconfig"
-	],
-	"homepage": "https://github.com/gimjb/tsconfig#readme",
-	"bugs": "https://github.com/gimjb/tsconfig/issues",
-	"license": "MIT-0",
-	"author": "gimjb <090302@5409.dk> (https://gimjb.com)",
-	"contributors": [
-		"gimjb <090302@5409.dk> (https://gimjb.com)"
-	],
-	"funding": "https://github.com/sponsors/gimjb",
-	"files": [
-		"tsconfig*.json"
-	],
-	"exports": {
-		"./node": "./tsconfig.node.json",
-		"./browser": "./tsconfig.browser.json"
-	},
-	"repository": "gimjb/tsconfig",
-	"scripts": {
-		"build": "jiti tsconfig.ts",
-		"prepublish": "pnpm build"
-	},
-	"devDependencies": {
-		"@types/node": "^24.9.1",
-		"jiti": "^2.6.1"
-	},
-	"peerDependencies": {
-		"typescript": ">=5.6.0"
-	}
+  "name": "@gimjb/tsconfig",
+  "version": "0.0.2",
+  "description": "A comprehensive TypeScript configuration file for various project types.",
+  "keywords": [
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/gimjb/tsconfig#readme",
+  "bugs": "https://github.com/gimjb/tsconfig/issues",
+  "license": "MIT-0",
+  "author": "gimjb <090302@5409.dk> (https://gimjb.com)",
+  "contributors": [
+    "gimjb <090302@5409.dk> (https://gimjb.com)"
+  ],
+  "funding": "https://github.com/sponsors/gimjb",
+  "files": [
+    "tsconfig*.json"
+  ],
+  "exports": {
+    "./node": "./tsconfig.node.json",
+    "./browser": "./tsconfig.browser.json"
+  },
+  "repository": "gimjb/tsconfig",
+  "scripts": {
+    "build": "jiti tsconfig.ts",
+    "prepublish": "pnpm build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "jiti": "^2.6.1"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.6.0"
+  }
 }

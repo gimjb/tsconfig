@@ -1,5 +1,4 @@
 const BACKWARDS_COMPATIBILITY_OPTIONS = {
-	importsNotUsedAsValues         : 'error',
 	// noImplicitUseStrict         : false,
 	// noStrictGenericChecks       : false,
 	// suppressExcessPropertyErrors: false,
